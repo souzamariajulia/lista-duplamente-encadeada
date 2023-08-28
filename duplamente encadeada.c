@@ -37,7 +37,7 @@ void add(int pos, int valor){
                 for(int i = 0; i<pos; i++){
                     aux = aux->prox; //caminhada
                 }
-                //operacoes de encaixe! CUIDADE A ORDEM IMPORTA!
+                //operacoes de encaixe! A ORDEM IMPORTA!
                 novo->prox = aux;
                 aux->ant->prox = novo;
                 aux->ant = novo->ant;
